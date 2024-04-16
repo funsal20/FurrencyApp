@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5B83922B5AF2620050EDDF /* project2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83912B5AF2620050EDDF /* project2App.swift */; };
+		AB5B83942B5AF2620050EDDF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83932B5AF2620050EDDF /* HomeView.swift */; };
+		AB5B83962B5AF2630050EDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5B83952B5AF2630050EDDF /* Assets.xcassets */; };
+		AB5B83992B5AF2630050EDDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5B83982B5AF2630050EDDF /* Preview Assets.xcassets */; };
+		AB5B83A12B5F04850050EDDF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83A02B5F04850050EDDF /* HomeViewModel.swift */; };
+		AB5B83A62B5F092F0050EDDF /* CurrencyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83A52B5F092F0050EDDF /* CurrencyDataSource.swift */; };
+		AB5B83A82B5F09400050EDDF /* CurrencyDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83A72B5F09400050EDDF /* CurrencyDataSourceDelegate.swift */; };
+		AB5B83AB2B5F09D70050EDDF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83AA2B5F09D70050EDDF /* Currency.swift */; };
+		AB5B83AD2B5F0AE60050EDDF /* CurrencyRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83AC2B5F0AE60050EDDF /* CurrencyRates.swift */; };
+		AB5B83B02B5F19B20050EDDF /* CurrenciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83AF2B5F19B20050EDDF /* CurrenciesView.swift */; };
+		AB5B83B22B5F19BB0050EDDF /* CurrenciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83B12B5F19BB0050EDDF /* CurrenciesViewModel.swift */; };
+		AB5B83B42B5F1F280050EDDF /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83B32B5F1F280050EDDF /* Loading.swift */; };
+		AB5B83B62B5F1F460050EDDF /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83B52B5F1F460050EDDF /* Spacing.swift */; };
+		AB5B83B92B5F29940050EDDF /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83B82B5F29940050EDDF /* CryptoViewModel.swift */; };
+		AB5B83BB2B5F299C0050EDDF /* CryptoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83BA2B5F299C0050EDDF /* CryptoView.swift */; };
+		AB5B83BD2B5F2D8A0050EDDF /* CryptoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83BC2B5F2D8A0050EDDF /* CryptoDataSource.swift */; };
+		AB5B83BF2B5F2D970050EDDF /* CryptoDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83BE2B5F2D970050EDDF /* CryptoDataSourceDelegate.swift */; };
+		AB5B83C12B5F2E1E0050EDDF /* CryptoRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83C02B5F2E1E0050EDDF /* CryptoRates.swift */; };
+		AB5B83C32B5F2FD20050EDDF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83C22B5F2FD20050EDDF /* MainView.swift */; };
+		AB5B83CE2B5FFE280050EDDF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83CD2B5FFE280050EDDF /* InfoView.swift */; };
+		AB5B83D22B617D7B0050EDDF /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83D12B617D7B0050EDDF /* ConverterView.swift */; };
+		AB5B83D42B61816A0050EDDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB5B83D32B61816A0050EDDF /* GoogleService-Info.plist */; };
+		AB5B83D72B6182910050EDDF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AB5B83D62B6182910050EDDF /* FirebaseAnalytics */; };
+		AB5B83D92B6182910050EDDF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AB5B83D82B6182910050EDDF /* FirebaseAnalyticsSwift */; };
+		AB5B83DC2B6182CF0050EDDF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AB5B83DB2B6182CF0050EDDF /* FirebaseAuth */; };
+		AB5B83E22B618A270050EDDF /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83E12B618A270050EDDF /* AuthenticatedView.swift */; };
+		AB5B83E42B618A470050EDDF /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83E32B618A470050EDDF /* AuthenticationView.swift */; };
+		AB5B83E62B618A650050EDDF /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83E52B618A650050EDDF /* AuthenticationViewModel.swift */; };
+		AB5B83E82B618A980050EDDF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83E72B618A980050EDDF /* LoginView.swift */; };
+		AB5B83EA2B618AAD0050EDDF /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83E92B618AAD0050EDDF /* SignupView.swift */; };
+		AB5B83EC2B618AC50050EDDF /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83EB2B618AC50050EDDF /* UserProfileView.swift */; };
+		AB5B83EE2B6192ED0050EDDF /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B83ED2B6192ED0050EDDF /* FavoritesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB5B838E2B5AF2620050EDDF /* project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5B83912B5AF2620050EDDF /* project2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project2App.swift; sourceTree = "<group>"; };
+		AB5B83932B5AF2620050EDDF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AB5B83952B5AF2630050EDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5B83982B5AF2630050EDDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB5B83A02B5F04850050EDDF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AB5B83A52B5F092F0050EDDF /* CurrencyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDataSource.swift; sourceTree = "<group>"; };
+		AB5B83A72B5F09400050EDDF /* CurrencyDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDataSourceDelegate.swift; sourceTree = "<group>"; };
+		AB5B83AA2B5F09D70050EDDF /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		AB5B83AC2B5F0AE60050EDDF /* CurrencyRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRates.swift; sourceTree = "<group>"; };
+		AB5B83AF2B5F19B20050EDDF /* CurrenciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesView.swift; sourceTree = "<group>"; };
+		AB5B83B12B5F19BB0050EDDF /* CurrenciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewModel.swift; sourceTree = "<group>"; };
+		AB5B83B32B5F1F280050EDDF /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		AB5B83B52B5F1F460050EDDF /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		AB5B83B82B5F29940050EDDF /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		AB5B83BA2B5F299C0050EDDF /* CryptoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoView.swift; sourceTree = "<group>"; };
+		AB5B83BC2B5F2D8A0050EDDF /* CryptoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDataSource.swift; sourceTree = "<group>"; };
+		AB5B83BE2B5F2D970050EDDF /* CryptoDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDataSourceDelegate.swift; sourceTree = "<group>"; };
+		AB5B83C02B5F2E1E0050EDDF /* CryptoRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoRates.swift; sourceTree = "<group>"; };
+		AB5B83C22B5F2FD20050EDDF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AB5B83CD2B5FFE280050EDDF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		AB5B83D12B617D7B0050EDDF /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
+		AB5B83D32B61816A0050EDDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB5B83E12B618A270050EDDF /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
+		AB5B83E32B618A470050EDDF /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		AB5B83E52B618A650050EDDF /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		AB5B83E72B618A980050EDDF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AB5B83E92B618AAD0050EDDF /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		AB5B83EB2B618AC50050EDDF /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		AB5B83ED2B6192ED0050EDDF /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5B838B2B5AF2620050EDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5B83D92B6182910050EDDF /* FirebaseAnalyticsSwift in Frameworks */,
+				AB5B83DC2B6182CF0050EDDF /* FirebaseAuth in Frameworks */,
+				AB5B83D72B6182910050EDDF /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5B83852B5AF2620050EDDF = {
+			isa = PBXGroup;
+			children = (
+				AB5B83902B5AF2620050EDDF /* project2 */,
+				AB5B838F2B5AF2620050EDDF /* Products */,
+				AB5B83DA2B6182CF0050EDDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5B838F2B5AF2620050EDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B838E2B5AF2620050EDDF /* project2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5B83902B5AF2620050EDDF /* project2 */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83B72B5F29850050EDDF /* CryptoScreen */,
+				AB5B83C22B5F2FD20050EDDF /* MainView.swift */,
+				AB5B83AE2B5F19920050EDDF /* CurrenciesScreen */,
+				AB5B83A92B5F09C30050EDDF /* Helpers */,
+				AB5B83A42B5F09220050EDDF /* DataSources */,
+				AB5B839F2B5F04640050EDDF /* HomeScreen */,
+				AB5B83DD2B6188700050EDDF /* DesignSystem */,
+				AB5B83E02B618A160050EDDF /* Auth */,
+				AB5B83952B5AF2630050EDDF /* Assets.xcassets */,
+				AB5B83D32B61816A0050EDDF /* GoogleService-Info.plist */,
+				AB5B83912B5AF2620050EDDF /* project2App.swift */,
+				AB5B83972B5AF2630050EDDF /* Preview Content */,
+			);
+			path = project2;
+			sourceTree = "<group>";
+		};
+		AB5B83972B5AF2630050EDDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83982B5AF2630050EDDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5B839F2B5F04640050EDDF /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83932B5AF2620050EDDF /* HomeView.swift */,
+				AB5B83A02B5F04850050EDDF /* HomeViewModel.swift */,
+				AB5B83ED2B6192ED0050EDDF /* FavoritesView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		AB5B83A42B5F09220050EDDF /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83A52B5F092F0050EDDF /* CurrencyDataSource.swift */,
+				AB5B83A72B5F09400050EDDF /* CurrencyDataSourceDelegate.swift */,
+				AB5B83BC2B5F2D8A0050EDDF /* CryptoDataSource.swift */,
+				AB5B83BE2B5F2D970050EDDF /* CryptoDataSourceDelegate.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		AB5B83A92B5F09C30050EDDF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83AA2B5F09D70050EDDF /* Currency.swift */,
+				AB5B83AC2B5F0AE60050EDDF /* CurrencyRates.swift */,
+				AB5B83C02B5F2E1E0050EDDF /* CryptoRates.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AB5B83AE2B5F19920050EDDF /* CurrenciesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83AF2B5F19B20050EDDF /* CurrenciesView.swift */,
+				AB5B83B12B5F19BB0050EDDF /* CurrenciesViewModel.swift */,
+				AB5B83D12B617D7B0050EDDF /* ConverterView.swift */,
+			);
+			path = CurrenciesScreen;
+			sourceTree = "<group>";
+		};
+		AB5B83B72B5F29850050EDDF /* CryptoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83BA2B5F299C0050EDDF /* CryptoView.swift */,
+				AB5B83B82B5F29940050EDDF /* CryptoViewModel.swift */,
+				AB5B83CD2B5FFE280050EDDF /* InfoView.swift */,
+			);
+			path = CryptoScreen;
+			sourceTree = "<group>";
+		};
+		AB5B83DA2B6182CF0050EDDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB5B83DD2B6188700050EDDF /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83B32B5F1F280050EDDF /* Loading.swift */,
+				AB5B83B52B5F1F460050EDDF /* Spacing.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		AB5B83E02B618A160050EDDF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B83E12B618A270050EDDF /* AuthenticatedView.swift */,
+				AB5B83E32B618A470050EDDF /* AuthenticationView.swift */,
+				AB5B83E52B618A650050EDDF /* AuthenticationViewModel.swift */,
+				AB5B83E72B618A980050EDDF /* LoginView.swift */,
+				AB5B83E92B618AAD0050EDDF /* SignupView.swift */,
+				AB5B83EB2B618AC50050EDDF /* UserProfileView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5B838D2B5AF2620050EDDF /* project2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5B839C2B5AF2630050EDDF /* Build configuration list for PBXNativeTarget "project2" */;
+			buildPhases = (
+				AB5B838A2B5AF2620050EDDF /* Sources */,
+				AB5B838B2B5AF2620050EDDF /* Frameworks */,
+				AB5B838C2B5AF2620050EDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project2;
+			packageProductDependencies = (
+				AB5B83D62B6182910050EDDF /* FirebaseAnalytics */,
+				AB5B83D82B6182910050EDDF /* FirebaseAnalyticsSwift */,
+				AB5B83DB2B6182CF0050EDDF /* FirebaseAuth */,
+			);
+			productName = project2;
+			productReference = AB5B838E2B5AF2620050EDDF /* project2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5B83862B5AF2620050EDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AB5B838D2B5AF2620050EDDF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AB5B83892B5AF2620050EDDF /* Build configuration list for PBXProject "project2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5B83852B5AF2620050EDDF;
+			packageReferences = (
+				AB5B83D52B6182910050EDDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AB5B838F2B5AF2620050EDDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5B838D2B5AF2620050EDDF /* project2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5B838C2B5AF2620050EDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5B83992B5AF2630050EDDF /* Preview Assets.xcassets in Resources */,
+				AB5B83D42B61816A0050EDDF /* GoogleService-Info.plist in Resources */,
+				AB5B83962B5AF2630050EDDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5B838A2B5AF2620050EDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5B83EA2B618AAD0050EDDF /* SignupView.swift in Sources */,
+				AB5B83E62B618A650050EDDF /* AuthenticationViewModel.swift in Sources */,
+				AB5B83B22B5F19BB0050EDDF /* CurrenciesViewModel.swift in Sources */,
+				AB5B83B62B5F1F460050EDDF /* Spacing.swift in Sources */,
+				AB5B83A82B5F09400050EDDF /* CurrencyDataSourceDelegate.swift in Sources */,
+				AB5B83BD2B5F2D8A0050EDDF /* CryptoDataSource.swift in Sources */,
+				AB5B83D22B617D7B0050EDDF /* ConverterView.swift in Sources */,
+				AB5B83B42B5F1F280050EDDF /* Loading.swift in Sources */,
+				AB5B83BB2B5F299C0050EDDF /* CryptoView.swift in Sources */,
+				AB5B83942B5AF2620050EDDF /* HomeView.swift in Sources */,
+				AB5B83B92B5F29940050EDDF /* CryptoViewModel.swift in Sources */,
+				AB5B83A12B5F04850050EDDF /* HomeViewModel.swift in Sources */,
+				AB5B83CE2B5FFE280050EDDF /* InfoView.swift in Sources */,
+				AB5B83922B5AF2620050EDDF /* project2App.swift in Sources */,
+				AB5B83AD2B5F0AE60050EDDF /* CurrencyRates.swift in Sources */,
+				AB5B83E22B618A270050EDDF /* AuthenticatedView.swift in Sources */,
+				AB5B83EE2B6192ED0050EDDF /* FavoritesView.swift in Sources */,
+				AB5B83C32B5F2FD20050EDDF /* MainView.swift in Sources */,
+				AB5B83B02B5F19B20050EDDF /* CurrenciesView.swift in Sources */,
+				AB5B83E82B618A980050EDDF /* LoginView.swift in Sources */,
+				AB5B83C12B5F2E1E0050EDDF /* CryptoRates.swift in Sources */,
+				AB5B83AB2B5F09D70050EDDF /* Currency.swift in Sources */,
+				AB5B83EC2B618AC50050EDDF /* UserProfileView.swift in Sources */,
+				AB5B83A62B5F092F0050EDDF /* CurrencyDataSource.swift in Sources */,
+				AB5B83BF2B5F2D970050EDDF /* CryptoDataSourceDelegate.swift in Sources */,
+				AB5B83E42B618A470050EDDF /* AuthenticationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB5B839A2B5AF2630050EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5B839B2B5AF2630050EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5B839D2B5AF2630050EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"project2/Preview Content\"";
+				DEVELOPMENT_TEAM = JYW5ZNQ4VX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihtarik.project2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5B839E2B5AF2630050EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"project2/Preview Content\"";
+				DEVELOPMENT_TEAM = JYW5ZNQ4VX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihtarik.project2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5B83892B5AF2620050EDDF /* Build configuration list for PBXProject "project2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5B839A2B5AF2630050EDDF /* Debug */,
+				AB5B839B2B5AF2630050EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5B839C2B5AF2630050EDDF /* Build configuration list for PBXNativeTarget "project2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5B839D2B5AF2630050EDDF /* Debug */,
+				AB5B839E2B5AF2630050EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB5B83D52B6182910050EDDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB5B83D62B6182910050EDDF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB5B83D52B6182910050EDDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AB5B83D82B6182910050EDDF /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB5B83D52B6182910050EDDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		AB5B83DB2B6182CF0050EDDF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB5B83D52B6182910050EDDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AB5B83862B5AF2620050EDDF /* Project object */;
+}
